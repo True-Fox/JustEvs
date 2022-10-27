@@ -1,0 +1,40 @@
+h1
+{
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+#login
+{
+    margin-top: 10px;
+    margin-right : 10px;
+    float:right;
+}
+
+header
+{
+    background-color: rgb(18, 86, 3);
+}
+
+#demo
+{
+    width : 50%
+}
+
+footer
+{
+    position : relative;
+    left : 0;
+    bottom : 0;
+    width : 100%;
+}
+
+body
+{
+    overflow : hidden;
+}
+
+.card-header{
+    background-color: aqua;
+}
