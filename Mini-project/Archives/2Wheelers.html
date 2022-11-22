@@ -49,9 +49,7 @@
             .card_image_top{
                 opacity: 0.1;
             }
-           html{
-            scroll-behavior: smooth;
-           }
+          
            .card__inner{
             background-color: rgba(0,0,0,0.9);
             color: #fff;
@@ -68,13 +66,29 @@
            body{
             background-image: url("trees.jpg");
             background-size: 1920px 1080px;
+            background-attachment: fixed;
            }
-
-           
 
            #logo{
             animation-name: spin;
             animation-duration:1s;
+            animation-delay: 3s;
+            animation-fill-mode: both;
+           }
+
+           @keyframes expand {
+            from{
+                scale:1;
+            }to{
+                scale:1.1;
+            }
+           }
+           li{
+            scale:1;
+           }
+           li:hover{
+            animation-name:expand ;
+            animation-duration:1s ;
            }
         </style>
     </head>
@@ -82,7 +96,7 @@
 
 <header>
 
-            <div id = "container">
+            <div id = "container" style="position: sticky;">
                 <div class = "row">
                     <div class = "col-sm-4">
                         <img id="logo" src = "logo.png" style = "float : left; width: 80px; height : 50px; margin-left : 10px;margin-top:10px">
@@ -127,7 +141,7 @@
    <p>a</p>
 </body>
 
-    <footer style="position: fixed;">
+    <footer style="position:-webkit-sticky ;">
         <nav class="navbar navbar-expand-sm bg-dark navbar-fixed-top navbar-dark">
             <ul class="navbar-nav">
                 <li class="nav-item">

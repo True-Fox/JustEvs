@@ -46,11 +46,8 @@ class Cards extends React.Component{
                 
                 <div className = "card__inner">
                     <p>rem Ipsum is simply dummy text of t
-                    he printing and typesetting industry. Lore
-                    m Ipsum has been the industry's standard dum
-                    my text ever since the 1500s, when an unknown 
-                    printer took a galley of type and scrambled 
-                    it to make a type specimen book. It has survi
+                    he printing ating industry. Lore
+                    m Ipsum has bee. It has survi
                     ved not onlyem Ipsum.</p>
 
                     <button type="button">Read More</button>
