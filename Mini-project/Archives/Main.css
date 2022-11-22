@@ -30,11 +30,3 @@ footer
     width : 100%;
 }
 
-body
-{
-    overflow : hidden;
-}
-
-.card-header{
-    background-color: aqua;
-}

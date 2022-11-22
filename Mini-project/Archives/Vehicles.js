@@ -43,8 +43,18 @@ class Cards extends React.Component{
                 <div className = "card-body">
                     <img src = {this.props.image} className = "card-img-top"/>
                 </div>
-                <div className = "card-footer">
-                    <p>Details about vehicle {this.props.name}</p>
+                
+                <div className = "card__inner">
+                    <p>rem Ipsum is simply dummy text of t
+                    he printing and typesetting industry. Lore
+                    m Ipsum has been the industry's standard dum
+                    my text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled 
+                    it to make a type specimen book. It has survi
+                    ved not onlyem Ipsum.</p>
+
+                    <button type="button">Read More</button>
+
                 </div>
             </div>
         )
