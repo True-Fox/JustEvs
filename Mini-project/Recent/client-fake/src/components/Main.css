@@ -1,0 +1,82 @@
+h1
+{
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+#login
+{
+    margin-top: 10px;
+    margin-right : 10px;
+    float:right;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+        scale: 0.5;
+    }
+    to{
+        transform: rotate(360deg);
+        scale:1;
+    }
+   }
+
+
+#logo{
+    animation-name: spin;
+    animation-duration:1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+   }
+
+header
+{
+    background-color: rgb(18, 86, 3);
+}
+
+#demo
+{
+    width : 50%
+}
+
+footer
+{
+    position : relative;
+    left : 0;
+    bottom : 0;
+    width : 100%;
+}
+
+body
+{
+    overflow : hidden;
+    background-image: url("../assets/body-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-header{
+    background-color: aqua;
+}
+
+.topnav a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+@keyframes expand {
+    from{
+        scale:1;
+    }to{
+        scale:1.1;
+    }
+   }
+   li{
+    scale:1;
+   }
+   li:hover{
+    animation-name:expand ;
+    animation-duration:1s ;
+   }
