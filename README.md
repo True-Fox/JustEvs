@@ -1,8 +1,8 @@
 
 
-<h1>Project JustEVs.com
+<h1>Project JustEVs.com</h1>
 
-This MERN stack project is basically about promoting the electric vehicles to everyone.</h1>
+<h3>This MERN stack project is basically about promoting the electric vehicles to everyone.</h3>
 
 With the help of this, users can view and select the vehicle of their own choice and allow them to sort the vehicles based on different criteria (Name, Price, Mileage). If the user selects a vehicle, it will send them to the vehicle's website from where they can buy the vehicle.
 
